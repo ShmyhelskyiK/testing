@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+
+body {
+	height: 100%;
+	color: #263555; 
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(../img/page-bg.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+
+.wrapper {
+	width: 900px;
+	height: auto;
+	background-color: #fff;
+	margin: 230px auto 0 auto;
+	padding: 118px 62px 0 62px;
+}
+
+.profile {
+	width: 644px;
+	float: left;
+
+}
+
+.profile h2 {
+	margin: 0 0 49px 0;
+}
+
+.profile img {
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+
+.principles {
+	float: right;
+	width: 210px;
+	height: auto; 
+}
+
+
+.principles h2{
+	margin: 0 0 49px 0px;
+}
+
+/*---CSS-счетчик-----------------------------------------------*/
+
+.principles ol {
+	counter-reset: MyCount;
+}
+
+.principles li{
+	list-style: none;
+}
+
+.principles li:before {
+	counter-increment: MyCount;
+	content: counter(MyCount);
+	color: white;
+	background: #38afe5;
+	border-radius: 20px;
+	border: 1px solid #689fb7;
+	display: inline-block;
+	text-align: center;
+	margin: 4px -40px;
+	line-height: 26px;
+	width: 26px;
+	height: 26px;
+	float: left;
+}
+
+/*---CSS-счетчик-----------------------------------------------*/
+
+.principles li > h4 {
+	overflow: hidden; 
+	height: 18px;
+	width: 172px; 
+	margin: 18px 0;
+}
+
+.principles li > p {
+	overflow: hidden; 
+	height: 82px;
+	width: 172px;
+	margin: 18px 0;
+}
+
+.FirstHalfPage {
+	border-bottom: 1px solid #dedbdb;
+	height: auto; 
+	overflow: hidden;
+	padding: 0 0 41px 0;
+}
+
+/*---CSS-счетчик-----------------------------------------------*/
+
+.offer {
+	float: left;
+	width: 644px;	
+}
+
+.offer h2{
+	margin: 60px 0;
+}
+
+/*---.link----------------------------------------------------*/
+
+.link ul {
+	padding: 0;
+	margin: 0;
+}
+
+.link li {
+	display: inline-block;
+	width: 270px;
+	padding: 16px 0;
+	overflow: hidden;
+	height: 10px;
+	width: 270px;
+}
+
+.link a {
+	text-decoration: none;
+	color: #263555;	
+}
+
+.link a:before {
+	content: "\21fe";
+	color: #38afe5; 
+	margin-right: 15px;
+} 
+
+.testimonial {
+	float: right;
+	height: auto;
+	width: 212px;
+}
+
+.testimonial h2{
+	margin: 60px 0 24px 0;
+}
+
+.quote {
+	width: 211px;
+	height: 219px;
+	background-image: url(../img/Layer_85.jpg);
+	margin-bottom: 38px; 
+}
+
+.quote p {	
+	font-family: arial;
+	font-size: 15px;
+	color: #263555;
+	padding: 20px;
+}
+
+.quote p:before {  
+	content: open-quote; 
+}
+
+.quote p:after {
+	content: close-quote;  
+}
+
+.director {
+	width: 210px;
+}
+
+.director p {
+	text-align: center;
+	font-size: 13px;
+}
+
+.SecondHalfPage {
+	height: auto; 
+	overflow: hidden;
+	padding-bottom: 90px;
+}
+
+.footer {
+	background: #30455B;
+	height: 134px;
+	width: 900px;
+	margin: 0 auto 224px -62px;
+	padding: 0 62px 88px 62px;	
+}
+
+
+h4 {
+	font-family: arial;
+	font-size: 15px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 16px;
+}
+
+h2 {
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-transform: uppercase;
+	font-size: 32px;
+
+}
+
+p {
+	font-family: arial;
+	font-size: 13px;
+	color: #4E5050;
+}
+
+ul {
+	/*list-style-image: url(../img/list_markers.jpg);*/
+	list-style-type: none;
+}
