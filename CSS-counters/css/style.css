@@ -3,7 +3,8 @@
 }
 
 .principles li {
-	list-style: none;	
+	list-style: none;
+	display: block;	
 }
 
 .principles li:before {
