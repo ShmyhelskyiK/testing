@@ -1,0 +1,23 @@
+.principles ol {
+	counter-reset: MyCount;
+}
+
+.principles li {
+	list-style: none;	
+}
+
+.principles li:before {
+	content: counters(MyCount, ".") ". ";
+	counter-increment: MyCount;
+	color: white;
+	background: #38afe5;
+	border-radius: 20px;
+	border: 1px solid #000;
+	display: inline-block;
+	text-align: center;
+	margin: 10px -40px;
+	line-height: 40px;
+	width: 40px;
+	height: 40px;
+	float: left;
+}
