@@ -6,7 +6,6 @@
   list-style: none;
   /* border создаст площадь, где не будет работать  .menu__item:hover */
   border: 10px solid hsla(0, 50%, 100%, 0.4);
-  box-shadow: var(--black-alfa2);
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -23,7 +22,6 @@
   display: inline-block;
   height: 40px;
   padding: 0 35px; 
-  color: var(--accent-color);
   text-decoration: none;
   line-height: 40px;
 }
@@ -32,11 +30,9 @@
 
 .menu__item>a:hover {
   background: hsla(0, 50%, 0%, 0.4);
-  color: var(--item-bg);
 }
 .submenu__item>a:hover {
   background: hsla(0, 50%, 0%, 0.4);
-  color: var(--item-bg);
 }
 
 .submenu {
@@ -49,7 +45,6 @@
   top: 40px;
   list-style: none;
   background: hsla(0, 50%, 100%, 0.6);
-  box-shadow: var(--black-alfa2);
   padding: 10px 5px;
 }
 
