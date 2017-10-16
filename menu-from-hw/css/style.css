@@ -9,14 +9,14 @@ body {
     background-size: cover;
     background-repeat:no-repeat;
 }
-/*.wrapper {
+.wrapper {
     box-sizing: border-box;
     display: block;
     width: 1024px;
     position: relative;
     margin: 0 auto;
     height: auto;
-}*/
+}
 
 .header {
     /*width: 1024px;*/
