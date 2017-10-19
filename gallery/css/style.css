@@ -12,7 +12,7 @@ body {
 
 .main {
     box-sizing: border-box;
-    display: block;
+    display: ;
     height: 850px;
     width: 1024px;
     background-color: #fff;
@@ -27,7 +27,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
 }
 
 .img-box{
