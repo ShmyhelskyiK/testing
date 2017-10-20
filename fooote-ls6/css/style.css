@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Dorsa');
+
+body {
+    height: 1346px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase;
+    background: url(../img/page-bg.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+h2 {
+    font-size: 32px;
+    color: #263555;
+}
+
+.header {
+    height: 300px;
+    width: 1024px;
+    padding: 100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+
+}
+
+.logo {
+    width: 137px;
+    height: 137px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 140px;
+    font-weight: normal;
+
+}
+
+.logo > a {
+    font-family: 'Dorsa', sans-serif;
+    font-size: 60px;
+    text-decoration: none;
+    color: #263555;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+    width: 100%;
+    /*height: 60px;*/
+    box-sizing: border-box;
+    /*background: hsla(0, 50%, 100%, 0.4);*/
+    list-style: none;
+    /* border создаст площадь, где не будет работать  .menu__item:hover */
+    border: 100px transparent;
+    /*font-size: 60px;*/
+    text-transform: uppercase;
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+    font-size: 28px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40px;
+    align-self: center;
+}
+
+.menu-item > a,
+.submenu-item > a {
+    display: inline-block;
+    /*height: 40px;*/
+    /*padding: 0 35px;*/
+    text-decoration: none;
+    /*line-height: 40px;*/
+    color: #FFFFFF
+}
+.submenu-item > a {
+    color: #6b7488;
+    /*width: 123px;*/
+}
+.menu-item > a {
+    /*width: 95px;*/
+}
+
+.menu-item>a:hover {
+    color: #263555;
+}
+.submenu-item>a:hover {
+    /*background: hsla(0, 50%, 0%, 0.4);*/
+    text-decoration: underline;
+}
+
+.submenu {
+    /*!* делаем невидимым .submenu *!*/
+    display: none;
+    /*!* при появлении .submenu окажется поверх других элементов *!*/
+    position: absolute;
+    /*top: 25px;*/
+    /*!* необходимо перекрыть border  .menu  *!*/
+    top: 40px;
+    list-style: none;
+    /*background: hsla(0, 50%, 100%, 0.6);*/
+    padding: 10px 5px;
+    font-size: 20px;
+    text-align: center;
+    color: #536286;
+}
+
+
+/*!* делаем .submenu видимым *!*/
+.menu-item:hover>.submenu {
+    display: block;
+    /*background: hsla(0, 50%, 100%, 0.6);*/
+    background: #fff;
+}
+
+.menu-item:hover>.submenu:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 2.5px 5px 2.5px;
+    border-color: transparent transparent #fff transparent;
+}
+
+/*_____________main_down__________________________________*/
+.main {
+    box-sizing: border-box;
+    display: block;
+    height: 850px;
+    width: 1024px;
+    background-color: #fff;
+    position: relative;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+.gallery {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-box{
+    box-sizing: border-box;
+    position: relative;
+    width: 288px;
+    height: 155px;
+    margin: 20px 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.img-box img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.img-box:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity 0.4s;
+    z-index: 2;
+}
+
+.img-box:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 33px;
+    height: 33px;
+    transform: translate(-50%, -50%);
+    background: url(../img/loop.png) center no-repeat;
+    -webkit-background-size: 33px 33px;
+    background-size: 33px 33px;
+    opacity: 0;
+    transition: opacity 0.4s;
+    z-index: 3;
+}
+
+.img-box:hover:after, .img-box:hover:before{
+    opacity: 1;
+}
+
+/*_____________main_up__________________________________*/
+
+
+.button-top {
+    position: fixed;
+    background-color: #38afe5;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    bottom: 100px;
+    top:90%;
+    left: 90%;
+    text-decoration: none;
+}
+
+.button-top:before {
+    content: '\21ea';
+    position: relative;
+    font-size: 17px;
+    color: #fff;
+    left: 10px;
+    top: 5px;
+}
+
+
+/*_____________footer_down__________________________*/
+
+.footer {
+    box-sizing: border-box;
+    height: 136px;
+    width: 1024px;
+    background-color: #30455b;
+    margin: 0 auto;
+    padding: 44px 180px 50px 140px;
+    color: #fff;
+}
+
+.list {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.list a {
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*_____________footer_up___________________________*/
