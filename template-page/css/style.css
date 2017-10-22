@@ -4,7 +4,6 @@
 body {
     height: auto;
     font-family: 'Pathway Gothic One', sans-serif;
-    text-transform: uppercase;
     background: url(../img/page-bg.jpg);
     background-size: cover;
     background-repeat:no-repeat;
@@ -13,7 +12,7 @@ body {
 h2 {
     font-size: 32px;
     color: #263555;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
 }
 
 .header {
@@ -173,6 +172,7 @@ h2 {
     margin: 0 auto;
     padding: 44px 180px 50px 140px;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .list {
