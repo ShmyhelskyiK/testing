@@ -1,0 +1,28 @@
+/*ul ~ p {*/
+    /*color: red;*/
+/*}*/
+
+a[href^="http"] {
+    background: url(HW4/img/my.ico) no-repeat;
+    padding-left: 20px;
+}
+
+a[href$=".jpg"],
+a[href$=".jpeg"]{
+    color: red;
+}
+
+
+a[href$=".jpeg"] {
+    color: gold;
+}
+
+a[data-filetype="image"] {
+    color: deeppink;
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+    /*text-decoration: underline;*/
+}
+
