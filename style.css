@@ -2,6 +2,26 @@
     /*color: red;*/
 /*}*/
 
+.wrap1 p:first-letter {
+    color: darkred;
+    font-size: 20px;
+    font-family: 'Algerian', cursive;
+}
+
+.wrap1 p:first-line {
+    color: darkgreen;
+}
+
+p::selection {
+    color: gold;
+    background: red;
+}
+
+li::selection, a::selection {
+    color: white;
+    background: blue;
+}
+
 a[href^="http"] {
     background: url(HW4/img/my.ico) no-repeat;
     padding-left: 20px;
@@ -26,3 +46,108 @@ a:hover {
     /*text-decoration: underline;*/
 }
 
+.links li {
+    margin: 20px 40px;
+    position: relative;
+    border-bottom: 1px solid darkred;
+    text-indent: 30px;
+    list-style-type: none;
+}
+
+.links a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.links li:after, .links li:before {
+    content: '';
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    background-color: darkred;
+    /*top: 1px;*/
+}
+
+.links li:before {
+    border-radius: 0 20px 20px 0;
+    left: 0;
+    top: 1px;
+}
+
+.links li:after {
+    border-radius: 20px 0 0 20px;
+    right: 0;
+    top: 1px;
+}
+
+.wrap {
+    width: 480px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.links li:first-child,
+.links li:last-child {
+    color: red;
+}
+
+.quote {
+    height: 200px;
+    width: 300px;
+}
+
+.quote p{
+    text-align: center;
+}
+
+.quote p:before {
+    content: '\2018\2018';
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    background: #000;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    display: block;
+    height: 25px;
+    width: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+.quote p:after {
+    content: '\2019\2019';
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+    color: #eee;
+    background: #000;
+    float: right;
+    position: relative;
+    top: 30px;
+    /*background: url("./HW4/img/my.ico") ;*/
+    display: block;
+    height: 25px;
+    width: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+
+}
+
+.quote p:hover,
+.quote p:hover:before,
+.quote p:hover:after {
+    color: #fff;
+    background: #ff3333;
+    transition: all 3350ms;
+}
+
+
+#container > ul {
+    border: 1px solid black;
+}

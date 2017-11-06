@@ -6,7 +6,7 @@ body {
     font-family: 'Pathway Gothic One', sans-serif;
     background: url(../img/page-bg.jpg);
     background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
 }
 
 h2 {
@@ -35,15 +35,33 @@ h2 {
     text-align: center;
     line-height: 140px;
     font-weight: normal;
-
 }
 
+.logo:hover {
+    background: #263555;
+    -webkit-transition: all 3350ms;
+    -moz-transition: all 3350ms;
+    -ms-transition: all 3350ms;
+    -o-transition:all 3350ms;
+    transition: all 3350ms;
+
+}
 .logo > a {
     font-family: 'Dorsa', sans-serif;
     font-size: 60px;
     text-decoration: none;
     color: #263555;
 }
+
+.logo > a:hover{
+    color: #fff;
+    -webkit-transition: all 1350ms ;
+    -moz-transition: all 1350ms ;
+    -ms-transition: all 1350ms ;
+    -o-transition: all 1350ms;
+    transition: all 1500ms;
+}
+
 
 .menu {
     display: flex;
@@ -161,6 +179,15 @@ h2 {
     top: 5px;
 }
 
+.button-top:hover {
+    background: #000000;
+    -webkit-transition: all 1350ms;
+    -moz-transition: all 1350ms;
+    -ms-transition: all 1350ms;
+    -o-transition: all 1350ms;
+    transition: all 1350ms;
+}
+
 
 /*_____________footer_down__________________________________*/
 
@@ -205,10 +232,17 @@ h2 {
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-family: Arial;
+    font-family: arial, sans-serif;
     font-size: 12px;
 }
 
 .social-links > .links {
     padding: 10px;
+}
+
+.tw:hover,
+.fb:hover,
+.goo:hover,
+.lin:hover {
+    opacity: .5;
 }
