@@ -147,6 +147,7 @@ h2 {
 .menu-item:hover>.submenu {
     display: block;
     background: #fff;
+    border-radius: 4px;
 }
 
 .menu-item:hover>.submenu:before {
