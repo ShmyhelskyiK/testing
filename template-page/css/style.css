@@ -35,16 +35,29 @@ h2 {
     text-align: center;
     line-height: 140px;
     font-weight: normal;
+
+    -webkit-transition: all 1350ms;
+    -moz-transition: all 1350ms;
+    -ms-transition: all 1350ms;
+    -o-transition:all 1350ms;
+    transition: all 1350ms;
+
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+
+
 }
 
 .logo:hover {
     background: #263555;
-
-    -webkit-transition: all 3350ms;
-    -moz-transition: all 3350ms;
-    -ms-transition: all 3350ms;
-    -o-transition:all 3350ms;
-    transition: all 2750ms;
+    -webkit-transition: all 1350ms;
+    -moz-transition: all 1350ms;
+    -ms-transition: all 1350ms;
+    -o-transition:all 1350ms;
+    transition: all 1350ms;
 
     -webkit-transform: rotate(-360deg);
     -moz-transform: rotate(-360deg);
@@ -57,17 +70,12 @@ h2 {
     font-family: 'Dorsa', sans-serif;
     font-size: 60px;
     text-decoration: none;
-    color: #263555;
     padding: 30px 28px;
+    color: #263555;
 }
 
 .logo > a:hover{
-    color: #fff;
-    -webkit-transition: all 1350ms ;
-    -moz-transition: all 1350ms ;
-    -ms-transition: all 1350ms ;
-    -o-transition: all 1350ms;
-    transition: all 1350ms;
+    color: #e4b264;
 }
 
 
@@ -106,17 +114,15 @@ h2 {
 }
 
 .menu-item > a {
-    /*width: 95px;*/
+    -webkit-transition: all 1350ms;
+    -moz-transition: all 1350ms;
+    -ms-transition: all 1350ms;
+    -o-transition:all 1350ms;
+    transition: all 1350ms;
 }
 
 .menu-item>a:hover {
     color: #263555;
-
-    -webkit-transition: all 1350ms ;
-    -moz-transition: all 1350ms ;
-    -ms-transition: all 1350ms ;
-    -o-transition: all 1350ms;
-    transition: all 1350ms;
 
     -webkit-transform: rotate(-360deg);
     -moz-transform: rotate(-360deg);
@@ -196,8 +202,9 @@ h2 {
     content: '\2227';
     position: relative;
     font-size: 18px;
+    font-weight: bolder;
     color: #fff;
-    left: 10px;
+    left: 9px;
     top: 5px;
 }
 
@@ -262,9 +269,23 @@ h2 {
     padding: 10px;
 }
 
+.tw,
+.fb,
+.goo,
+.lin {
+    border: 4px ridge #e4b264;
+    border-radius: 26px;
+}
+
 .tw:hover,
 .fb:hover,
 .goo:hover,
 .lin:hover {
+    border: 4px outset #e4b264;
+    border-radius: 26px;
+}
+
+.links a:focus:hover {
     opacity: .5;
 }
+
