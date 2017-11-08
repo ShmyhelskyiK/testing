@@ -42,22 +42,20 @@ h2 {
     -o-transition:all 1350ms;
     transition: all 1350ms;
 
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-
-
+    /*-webkit-transform: rotate(0deg);*/
+    /*-moz-transform: rotate(0deg);*/
+    /*-ms-transform: rotate(0deg);*/
+    /*-o-transform: rotate(0deg);*/
+    /*transform: rotate(0deg);*/
 }
 
 .logo:hover {
     background: #263555;
-    -webkit-transition: all 1350ms;
-    -moz-transition: all 1350ms;
-    -ms-transition: all 1350ms;
-    -o-transition:all 1350ms;
-    transition: all 1350ms;
+    /*-webkit-transition: all 1350ms;*/
+    /*-moz-transition: all 1350ms;*/
+    /*-ms-transition: all 1350ms;*/
+    /*-o-transition:all 1350ms;*/
+    /*transition: all 1350ms;*/
 
     -webkit-transform: rotate(-360deg);
     -moz-transform: rotate(-360deg);
