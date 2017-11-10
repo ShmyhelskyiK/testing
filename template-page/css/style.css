@@ -242,6 +242,23 @@ h2 {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
+
+}
+
+.wrap a{
+    -webkit-transition: all 1350ms;
+    -moz-transition: all 1350ms;
+    -ms-transition: all 1350ms;
+    -o-transition:all 1350ms;
+    transition: all 1350ms;
+}
+
+.wrap a:hover{
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    transform: translate(-12px, 0%);
 }
 
 .list a {
