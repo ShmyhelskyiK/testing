@@ -1,0 +1,108 @@
+
+.tabs {
+  margin: 20px 10px;
+}
+
+.tabs > input {
+  display: none;
+}
+
+.tabs input[id="tab-1"]:checked ~ .content .content__item-1,
+.tabs input[id="tab-2"]:checked ~ .content .content__item-2,
+.tabs input[id="tab-3"]:checked ~ .content .content__item-3 {
+  display: block;
+}
+
+.tabs input:checked + label {
+  color: #38afe5;
+  background: #fff;
+  border-bottom: 1px solid #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.tabs label {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 30px;
+  font-family: "Pathway Gothic One", arial, sans-serif;
+  color: #6b7488;
+  background: #fcfafa;
+  border: 1px solid #dedbdb;
+  margin-left: -5px;
+  text-transform: uppercase;
+}
+
+.tabs label:hover {
+  color: #38afe5;
+}
+.content{
+  position: relative;
+  left: -5px;
+  color: #4e5050;
+  width: 595px;
+  height: 400px;
+  /*display: flex;*/
+  /*flex-direction: row-reverse;*/
+}
+
+.content__item-1,
+.content__item-2,
+.content__item-3 {
+  display: none;
+
+  position: absolute;
+  top: -1px;
+  left: 0;
+
+  width: 100%;
+  color: #4e5050;
+  border: 1px solid #dedbdb;
+  padding:  20px;
+
+}
+
+.content img {
+  height: 105px;
+  width: 200px;
+  float: left;
+  padding: 0 20px 0 0;
+}
+
+.content h4 {
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  color: #263555;
+}
+
+.content a {
+  text-decoration: none;
+  color: #fa7e7e;
+}
+
+.content p{
+  font-family: arial, sans-serif;
+  font-size: 9px;
+  line-height: 12px;
+  margin-top: 21px;
+}
+
+.content span {
+  color: #000;
+}
+
+.content input {
+  margin: 20px 0;
+  position: relative;
+  left: 294px;
+  background: #fff;
+  border: 1px solid #c6c1c1;
+  border-radius: 5px;
+  padding: 3px 10px;
+}
+
+
+
+
+
+
