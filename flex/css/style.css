@@ -1,0 +1,38 @@
+.container {
+  height: 400px;
+  background: rgba(0,0,0, .1);
+  text-align: center;
+  display: flex;
+  /*Выравнивание контента по горизонтали*/
+  justify-content: space-around;
+  /*Выравнивание контента по вертикали*/
+  align-items: center;
+  /*Задаем главную ось и порядок расположения элементов*/
+  flex-direction: row;
+  /*Многострочность елементов*/
+  flex-wrap: nowrap;
+  /*Заполнение контента по вертикали*/
+  align-content: space-around;
+}
+
+.item {
+  background: #ccc;
+  border: 1px dashed red;
+  /*Базовая ширина элеента (flex-basis)*/
+  flex-basis: 200px;
+}
+
+.active {
+  background-color: purple;
+  color: #fff;
+  /*Порядок элементов(свойство order)*/
+  /*order: 0;*/
+  /*Базовая ширина элеента (flex-basis)*/
+  /*flex-basis: 200px;*/
+  /*Растяжение элементов (flex-grow)*/
+  /*flex-grow: 2;*/
+  /*Сужение элементов (flex-shrink)*/
+  /*flex-shrink: 2;*/
+  /*Выравнивание отдельных элементов (align-self)*/
+  align-self: center;
+}
