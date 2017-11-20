@@ -19,7 +19,7 @@
   background: #ccc;
   border: 1px dashed red;
   /*Базовая ширина элеента (flex-basis)*/
-  flex-basis: 200px;
+  /*flex-basis: 200px;*/
 }
 
 .active {
@@ -34,5 +34,5 @@
   /*Сужение элементов (flex-shrink)*/
   /*flex-shrink: 2;*/
   /*Выравнивание отдельных элементов (align-self)*/
-  align-self: center;
+  /*align-self: center;*/
 }
