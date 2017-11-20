@@ -3,14 +3,14 @@
   background: rgba(0,0,0, .1);
   text-align: center;
   display: flex;
+  /*Задаем главную ось и порядок расположения элементов(row - по умолчанию)*/
+  flex-direction: row;
   /*Выравнивание контента по горизонтали*/
   justify-content: space-around;
   /*Выравнивание контента по вертикали*/
   align-items: center;
-  /*Задаем главную ось и порядок расположения элементов*/
-  flex-direction: row;
-  /*Многострочность елементов*/
-  flex-wrap: nowrap;
+  /*Многострочность елементов (nowrap - по умолчанию)*/
+  flex-wrap: wrap;
   /*Заполнение контента по вертикали*/
   align-content: space-around;
 }
@@ -20,6 +20,10 @@
   border: 1px dashed red;
   /*Базовая ширина элеента (flex-basis)*/
   /*flex-basis: 200px;*/
+  /*Растяжение элементов (flex-grow)*/
+  /*flex-grow: 1;*/
+  /*Сужение элементов (flex-shrink)*/
+  /*flex-shrink: 1;*/
 }
 
 .active {
