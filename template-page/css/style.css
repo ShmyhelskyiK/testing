@@ -107,10 +107,6 @@ h2 {
     color: #fff;
 }
 
-.submenu-item > a {
-    color: #263555;
-}
-
 .menu-item > a {
     -webkit-transition: all 1350ms;
     -moz-transition: all 1350ms;
@@ -129,7 +125,11 @@ h2 {
     transform: scale(1.2, 1.2);
 }
 
-.submenu-item>a:hover {
+.submenu-item > a {
+    color: #263555;
+}
+
+.submenu-item > a:hover {
     /*text-decoration: underline;*/
     border-bottom: 1px dashed #000;
 }

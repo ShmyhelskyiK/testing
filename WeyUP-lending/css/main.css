@@ -1,0 +1,179 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	/*color: #e7e4bb;*/
+}
+
+div, p, input, button, a {
+	box-sizing: border-box;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 1.6em;
+	line-height: 1.38em;
+}
+
+article {
+	width: 1170px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+}
+
+.f11px {font-size: 11px;}
+.f12px {font-size: 12px;}
+.f13px {font-size: 13px;}
+.f14px {font-size: 14px;}
+.f15px {font-size: 15px;}
+.f16px {font-size: 16px;}
+.f17px {font-size: 17px;}
+.f18px {font-size: 18px;}
+.f19px {font-size: 19px;}
+.f20px {font-size: 20px;}
+.f21px {font-size: 21px;}
+.f22px {font-size: 22px;}
+.f23px {font-size: 23px;}
+.f24px {font-size: 24px;}
+.f25px {font-size: 25px;}
+.f26px {font-size: 26px;}
+.f27px {font-size: 27px;}
+.f28px {font-size: 28px;}
+.f29px {font-size: 29px;}
+.f30px {font-size: 30px;}
+.f31px {font-size: 31px;}
+.f32px {font-size: 32px;}
+.f33px {font-size: 33px;}
+.f34px {font-size: 34px;}
+.f35px {font-size: 35px;}
+.f36px {font-size: 36px;}
+.f37px {font-size: 37px;}
+.f38px {font-size: 38px;}
+.f39px {font-size: 39px;}
+.f40px {font-size: 40px;}
+.f41px {font-size: 41px;}
+.f42px {font-size: 42px;}
+.f43px {font-size: 43px;}
+.f44px {font-size: 44px;}
+.f45px {font-size: 45px;}
+.f46px {font-size: 46px;}
+.f47px {font-size: 47px;}
+.f48px {font-size: 48px;}
+.f49px {font-size: 49px;}
+.f50px {font-size: 50px;}
+.f51px {font-size: 51px;}
+.f52px {font-size: 52px;}
+.f53px {font-size: 53px;}
+.f54px {font-size: 54px;}
+.f55px {font-size: 55px;}
+.f56px {font-size: 56px;}
+.f57px {font-size: 57px;}
+.f58px {font-size: 58px;}
+.f59px {font-size: 59px;}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.aligner {
+	text-align: center;
+}
+
+.centro {
+	margin: 0 auto;
+}
+
+#first {
+	background: #e5e2a3 url(../img/first_bg.jpg) no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+	color: #3b3a1f;
+}
+
+#first article{
+	height: 100vh;
+}
+
+.date {
+	padding-top: 5vh;
+}
+
+.wheel {
+	position: absolute;
+	left: 50%;
+	margin-left: -267px;
+	top: 50%;
+	margin-top: -165px;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.icon1 {
+	background: url(../img/process.png) no-repeat center top;
+	padding-top: 170px;
+	width: 220px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -106px;
+}
+
+.icon2 {
+	background: url(../img/brain.png) no-repeat center top;
+	padding-top: 170px;
+	width: 220px;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -106px;
+}
+
+.white {
+	color: #fff;
+}
+
+.basics {
+	position: absolute;
+	bottom: 10vh;
+	left: 0;
+	width: 100%;
+}
+
+.title {
+	margin-bottom: 10px;
+}
+
+.skills i {
+	margin-left: 24px;
+}
+
+.skills i:first-child {
+	margin-left: 0;
+}
+
+.button {
+	background: #cf3f3f;
+	border-radius: 5px 5px 0 0;
+	padding: 20px 30px 5px;
+	position: absolute;
+	bottom: 0vh;
+	left: 50%;
+	width: 300px;
+	margin-left: -150px;
+	text-decoration: none;
+}
+
+.button i {
+	display: block;
+
+}
