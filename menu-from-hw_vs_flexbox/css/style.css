@@ -8,12 +8,12 @@ body {
 }
 
 .header {
-    hight: 300px;
-    padding: 100px;
-    box-sizing: border-box;
-    display: block;
+    /*hight: 300px;*/
+    /*box-sizing: border-box;*/
+    /*display: block;*/
     width: 1024px;
     position: relative;
+    padding: 100px 0;
     margin: 0 auto;
 }
 
