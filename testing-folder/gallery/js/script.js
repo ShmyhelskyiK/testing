@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $(".fancybox").fancybox();
+})
+
 $(function() {
     // при нажатии на кнопку scrollup
     $('.scrollup').click(function() {
