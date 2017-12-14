@@ -180,6 +180,13 @@ ol, ul, li {
   bottom: -5px;
 }
 
+.contact a {
+  color: #fff;
+}
+ .contact a:hover {
+  color: #e4b164;
+}
+
   /*пробовал сделать соц сети спрайтом*/
 .fb,
 .google,
