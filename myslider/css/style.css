@@ -86,6 +86,11 @@ input:checked + div + label + label:hover{
   opacity: .7;
 }
 
+input:checked + div + label:active,
+input:checked + div + label + label:active{
+  opacity: .7;
+}
+
 div {
    position: absolute;
 }
@@ -144,8 +149,3 @@ div {
   /*width: 40px;*/
   /*height: 40px;*/
 /*}*/
-
-
-.abrt > div {
-  display: flex;
-}
