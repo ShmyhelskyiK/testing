@@ -110,7 +110,7 @@ div {
 
 
 
-/*--------*/
+
 @media (max-width: 767px) {
 
   img {
@@ -180,9 +180,6 @@ div {
     position: absolute;
     top: 137px;
     left: 30px;
-    /*position: absolute;*/
-    /*top: 250px;*/
-    /*left: 36px;*/
   }
 
   input:checked + div + label:after {
@@ -203,12 +200,9 @@ div {
   }
 
   input:checked + div + label + label:after {
-     content: '\2192';
-     color: #fff;
      position: absolute;
      left: 8px;
      top: 19px;
-     z-index: 100;
    }
 
   input:checked + div + label {
@@ -220,56 +214,8 @@ div {
   }
 
   input:checked + div + label:after {
-    content: '\2190';
-    color: #fff;
     position: absolute;
     right: 7px;
     top: 19px;
-    z-index: 100;
-
+  }
 }
-
-
-/*-----------------------------------------------------*/
-
-
-
-/*footer*/
-
-/*.footer {*/
-  /*background-color: darkblue;*/
-  /*width: 1024px;*/
-/*}*/
-
-/*.fb, .google, .linkedin, .twitter {*/
-  /*display: inline-block;*/
-  /*background: url(../img/index.png) no-repeat;*/
-  /*overflow: hidden;*/
-  /*text-indent: -9999px;*/
-  /*text-align: left;*/
-  /*margin: 15px;*/
-/*}*/
-
-/*.fb {*/
-  /*background-position: -5px -0px;*/
-  /*width: 40px;*/
-  /*height: 40px;*/
-/*}*/
-
-/*.google {*/
-  /*background-position: -50px -0px;*/
-  /*width: 40px;*/
-  /*height: 40px;*/
-/*}*/
-
-/*.linkedin {*/
-  /*background-position: -5px -45px;*/
-  /*width: 40px;*/
-  /*height: 40px;*/
-/*}*/
-
-/*.twitter {*/
-  /*background-position: -50px -45px;*/
-  /*width: 40px;*/
-  /*height: 40px;*/
-/*}*/
