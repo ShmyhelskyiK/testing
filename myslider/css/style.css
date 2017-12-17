@@ -1,8 +1,9 @@
 
 .slider {
   position: relative;
-  width: 902px;
-  height: 580px;
+  /*width: 902px;*/
+  width: auto;
+  /*height: 580px;*/
 }
 
 h2, h3 {
@@ -99,13 +100,135 @@ div {
 .slider > div {
   visibility: hidden;
   opacity: 0;
-  transition: all 335ms;
+  transition: all 1335ms;
 }
 
 .slider > input:checked + div {
   visibility: visible;
   opacity: 1;
 }
+
+
+
+/*--------*/
+@media (max-width: 767px) {
+
+  img {
+    width: 100%;
+  }
+
+  h2{
+    font-size: 26px;
+    position: absolute;
+    top: 103px;
+  }
+
+  h3 {
+    font-size: 18px;
+    position: absolute;
+    top: 55px;
+  }
+
+  input:checked + div + label + label {
+    position: absolute;
+    top: 250px;
+    left: 81px;
+  }
+
+  input:checked + div + label {
+    position: absolute;
+    top: 250px;
+    left: 36px;
+  }
+}
+
+
+/*--------*/
+
+
+@media (max-width: 575px) {
+
+  h2{
+    font-size: 18px;
+    position: absolute;
+    top: 66px;
+  }
+
+  h3 {
+    font-size: 12px;
+    position: absolute;
+    top: 25px;
+  }
+
+  input:checked + div + label + label {
+    height: 66px;
+    width: 33px;
+    position: absolute;
+    top: 137px;
+    left: 63px;
+  }
+
+  input:checked + div + label + label:after {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+  }
+
+  input:checked + div + label {
+    height: 66px;
+    width: 33px;
+    position: absolute;
+    top: 137px;
+    left: 30px;
+    /*position: absolute;*/
+    /*top: 250px;*/
+    /*left: 36px;*/
+  }
+
+  input:checked + div + label:after {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+  }
+}
+
+@media (max-width: 320px){
+
+  input:checked + div + label + label {
+    height: 60px;
+    width: 30px;
+    position: absolute;
+    top: 130px;
+    left: 60px;
+  }
+
+  input:checked + div + label + label:after {
+     content: '\2192';
+     color: #fff;
+     position: absolute;
+     left: 8px;
+     top: 19px;
+     z-index: 100;
+   }
+
+  input:checked + div + label {
+    height: 60px;
+    width: 30px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+  }
+
+  input:checked + div + label:after {
+    content: '\2190';
+    color: #fff;
+    position: absolute;
+    right: 7px;
+    top: 19px;
+    z-index: 100;
+
+}
+
 
 /*-----------------------------------------------------*/
 
