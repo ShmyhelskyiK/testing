@@ -260,7 +260,55 @@ h2 {
   text-transform: none;
 }
 
+/*--------------------*/
 
+.newsletter {
+  border: 1px solid #dedbdb;
+  /*margin-top: 10px;*/
+}
+
+.min-title {
+  font-family: 'Pathway Gothic One', arial, sans-serif;
+  font-size: 20px;
+  color: #263555;
+  background: #fcfafa;
+  border-bottom: 1px solid #dedbdb;
+  padding: 3px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.newsletter p {
+  font-family: arial, sans-serif;
+  color: #263555;
+  font-size: 15px;
+  text-transform: none;
+  padding-top: 20px;
+}
+
+.form-control {
+  padding: 4px 25px;
+  border:1px solid #e2dfdf;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/*.link > ul {*/
+  /*margin: 45px 15px;*/
+/*}*/
+
+.link a{
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  color: #263555;
+}
+
+.link > li:before{
+  content: url(../img/marker.png);
+  margin-right: 15px;
+}
 
 /*----------------------------------------*/
 /* - FOOTER SECTION - */
