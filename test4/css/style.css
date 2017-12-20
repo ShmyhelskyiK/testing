@@ -120,26 +120,25 @@ ol, ul, li {
   /*position: relative;*/
 /*}*/
 
-/*.carousel-caption h3{*/
-  /*background: #fff;*/
-  /*color: #263555;*/
+.carousel-caption h3{
+  background: #fff;
+  color: #263555;
   /*font-size: 22px;*/
   /*position: absolute;*/
   /*bottom: 270px;*/
   /*left: -126px;*/
   /*padding: 20px 15px;*/
+}
 
-/*}*/
-
-/*.carousel-caption p{*/
-  /*background: #38afe5;*/
-  /*color: #fff;*/
+.carousel-caption p{
+  background: #38afe5;
+  color: #fff;
   /*font-size: 34px;*/
   /*position: absolute;*/
   /*bottom: 200px;*/
   /*left: -126px;*/
   /*padding: 10px 15px;*/
-/*}*/
+}
 
 /*.carousel-control-prev {*/
   /*background: #38afe5;*/
