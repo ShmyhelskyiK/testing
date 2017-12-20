@@ -37,12 +37,13 @@ ol, ul, li {
   color: #fff;
 }
 
-/*.title {*/
+h2 {
   /*margin: 54px 0 42px;*/
-  /*color: #263555;*/
+  color: #263555;
+  margin-bottom: 40px;
   /*font-family: 'Pathway Gothic One', sans-serif;*/
-  /*text-transform: uppercase;*/
-/*}*/
+  text-transform: uppercase;
+}
 
 .btn {
   background: #fff;
@@ -182,8 +183,16 @@ ol, ul, li {
 /*----------------------------------------*/
 /* - Destinations SECTION - */
 
+.destinations {
+  padding: 45px 0;
+}
+
 .card {
   position: relative;
+}
+
+.card:hover .description {
+  opacity: .9;
 }
 
 .description {
@@ -201,21 +210,57 @@ ol, ul, li {
   transition: all 1s;
 }
 
-.card:hover .description {
-  opacity: .9;
-}
-
 .description h3 {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
 
-.btn {
+.description .btn {
   position: absolute;
   left: 70px;
   bottom: 18px;
 }
+
+/*----------------------------------------*/
+/* - Tabs SECTION - */
+
+.nav-item {
+  font-family: "Pathway Gothic One" , arial, sans-serif;
+  font-size: 19px;
+}
+
+.tab-content {
+  border: 1px solid #dedbdb;
+  margin-top: -1px;
+}
+
+.tab-pane {
+  font-family: arial, sans-serif;
+  font-size: 10px;
+  padding: 40px 14px;
+  position: relative;
+}
+
+.tab-pane img {
+  margin-bottom: 80px;
+}
+
+.tab-pane .btn {
+  position: absolute;
+  left: 130px;
+  bottom: 10px;
+}
+
+.tab-pane h5 {
+  font-size: 15px;
+}
+
+.tab-pane p {
+  text-transform: none;
+}
+
+
 
 /*----------------------------------------*/
 /* - FOOTER SECTION - */
@@ -323,6 +368,14 @@ ol, ul, li {
     width: 78%;
   }
 
+  /* - Tabs SECTION - */
+  .tab-pane .btn {
+    position: absolute;
+    left: 170px;
+    bottom: 6px;
+  }
+
+
 
   /* - FOOTER SECTION - */
 
@@ -375,6 +428,13 @@ ol, ul, li {
   .description {
     width: 53%;
     /*padding: 0 0;*/
+  }
+
+  /* - Tabs SECTION - */
+  .tab-pane .btn {
+    position: absolute;
+    left: 220px;
+    bottom: 65px;
   }
 
   /* - FOOTER SECTION - */
