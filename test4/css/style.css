@@ -37,11 +37,12 @@ ol, ul, li {
   color: #fff;
 }
 
-h2 {
-  /*margin: 54px 0 42px;*/
+h1,h2,h3,h4,h5,h6 {
   color: #263555;
+}
+
+h2 {
   margin-bottom: 40px;
-  /*font-family: 'Pathway Gothic One', sans-serif;*/
   text-transform: uppercase;
 }
 
@@ -227,7 +228,22 @@ h2 {
 
 .nav-item {
   font-family: "Pathway Gothic One" , arial, sans-serif;
-  font-size: 19px;
+  font-size: 20px;
+}
+
+.nav-tabs .nav-link {
+  border-color: #eceeef #eceeef #ddd;
+  background-color: #fcfafa;
+  color: #6b7488;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #38afe5;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #38afe5;
 }
 
 .tab-content {
@@ -239,7 +255,7 @@ h2 {
   font-family: arial, sans-serif;
   font-size: 10px;
   padding: 40px 14px;
-  /*position: relative;*/
+  text-transform: none;
 }
 
 .tab-img {
@@ -248,7 +264,7 @@ h2 {
 
 .tab-text {
   position: relative;
-  /*margin-bottom: 80px;*/
+  color: #4e5050;
 }
 
 .tab-text:nth-of-type(2) > .btn {
@@ -263,12 +279,12 @@ h2 {
   bottom: 1px;
 }
 
-.tab-pane h5 {
-  font-size: 15px;
+.tab-text span {
+  color: #000;
 }
 
-.tab-pane p {
-  text-transform: none;
+.tab-text a {
+  color: #fa7e7e;
 }
 
 /*--------------------*/
