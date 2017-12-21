@@ -200,7 +200,7 @@ h2 {
   font-family: arial, sans-serif;
   text-transform: none;
   font-size: 10px;
-  color: #fff;
+  color: #cbc6c6;
   background: #193149;
   width: 68%;
   height: 100%;
@@ -213,6 +213,7 @@ h2 {
 
 .description h3 {
   font-family: "Open Sans", sans-serif;
+  color: #fff;
   text-align: center;
   text-transform: uppercase;
 }
