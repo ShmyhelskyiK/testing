@@ -239,17 +239,28 @@ h2 {
   font-family: arial, sans-serif;
   font-size: 10px;
   padding: 40px 14px;
+  /*position: relative;*/
+}
+
+.tab-img {
+  margin-bottom: 100px;
+}
+
+.tab-text {
   position: relative;
+  /*margin-bottom: 80px;*/
 }
 
-.tab-pane img {
-  margin-bottom: 80px;
-}
-
-.tab-pane .btn {
+.tab-text:nth-of-type(2) > .btn {
   position: absolute;
   left: 130px;
-  bottom: 10px;
+  bottom: 22px;
+}
+
+.tab-text:nth-of-type(4) > .btn {
+  position: absolute;
+  left: 130px;
+  bottom: 1px;
 }
 
 .tab-pane h5 {
@@ -267,14 +278,13 @@ h2 {
   /*margin-top: 10px;*/
 }
 
-.min-title {
+.topic {
   font-family: 'Pathway Gothic One', arial, sans-serif;
   font-size: 20px;
   color: #263555;
   background: #fcfafa;
   border-bottom: 1px solid #dedbdb;
   padding: 3px 0;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -298,11 +308,12 @@ h2 {
   /*margin: 45px 15px;*/
 /*}*/
 
-.link a{
+.link a {
   text-decoration: none;
   font-family: arial, sans-serif;
   font-size: 15px;
   color: #263555;
+  text-transform: none;
 }
 
 .link > li:before{
@@ -355,7 +366,7 @@ h2 {
 .scrollup {
   position: fixed; /* фиксированная позиция */
   color: #fff; /* цвет текста */
-  background-color: #286090; /* цвет заднего фона */
+  background-color: #286090;  /* #38afe5; цвет заднего фона */
   right: 20px; /* расстояние от правого края */
   bottom: 20px; /* расстояние от нижнего края */
   padding: 4px 10px; /* отступы до содержимого блока */
@@ -416,11 +427,16 @@ h2 {
     width: 78%;
   }
 
-  /* - Tabs SECTION - */
-  .tab-pane .btn {
+  .tab-text:nth-of-type(2) > .btn {
     position: absolute;
     left: 170px;
-    bottom: 6px;
+    bottom: 22px;
+  }
+
+  .tab-text:nth-of-type(4) > .btn {
+    position: absolute;
+    left: 170px;
+    bottom: 1px;
   }
 
 
@@ -479,9 +495,20 @@ h2 {
   }
 
   /* - Tabs SECTION - */
-  .tab-pane .btn {
+
+  .tab-img {
+    margin-bottom: 70px;
+  }
+
+  .tab-text:nth-of-type(2) > .btn {
     position: absolute;
-    left: 220px;
+    left: 240px;
+    bottom: 65px;
+  }
+
+  .tab-text:nth-of-type(4) > .btn {
+    position: absolute;
+    left: 240px;
     bottom: 65px;
   }
 
