@@ -1,9 +1,41 @@
+/* - SPECIFICATION SECTION - */
+
+body {
+  height: auto;
+  background: url("../img/page-bg.jpg") no-repeat center center;
+  background-size: cover;
+  text-transform: uppercase;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+ol, ul, li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.dark-blue {
+  background-color: #30455b;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 26px 36px;
+
+}
+
+/*------------------------------------*/
 
 .slider {
   position: relative;
-  /*width: 902px;*/
   width: auto;
-  /*height: 580px;*/
+  margin: 0 auto;
 }
 
 h2, h3 {

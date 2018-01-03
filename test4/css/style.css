@@ -268,13 +268,13 @@ h2 {
   color: #4e5050;
 }
 
-.tab-text:nth-of-type(2) > .btn {
+.tab-text:nth-of-type(2n) > .btn {
   position: absolute;
   left: 130px;
   bottom: 22px;
 }
 
-.tab-text:nth-of-type(4) > .btn {
+.tab-text:nth-of-type(4n ) > .btn {
   position: absolute;
   left: 130px;
   bottom: 1px;
