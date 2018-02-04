@@ -1,10 +1,8 @@
-http://truediamon.livejournal.com/9194.html
-
-$curDir = $MyInvocation.MyCommand.Definition | split-path -parent 
+$curDir = $MyInvocation.MyCommand.Definition | split-path -parent
 $searchBase = "OU=users,DC=company,DC=com"
-$LDAPFilter = "(&(objectCategory=Person)(objectClass=User)(mail=*)(givenName=*)(sn=*)(!userAccountControl:1.2.840.113556.1.4.803:=2))" # незаблокированные юзеры с емейлом и заполненными именем-фамилией
-$tplFile = $curDir + "\addressbook.tpl" #файл с темплейтом
-$outFile = "\\iiswebserver\spravochnik\index.html" # куда кладём сгенерённый файл.
+$LDAPFilter = "(&(objectCategory=Person)(objectClass=User)(mail=*)(givenName=*)(sn=*)(!userAccountControl:1.2.840.113556.1.4.803:=2))" # пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+$tplFile = $curDir + "\addressbook.tpl" #пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+$outFile = "\\iiswebserver\spravochnik\index.html" # пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ.
 $UserCount = 0
 $dt=Get-Date -Format "yyyy-MM-dd HH:mm"
  
