@@ -57,6 +57,10 @@ body {
   top: 0;
   left: 250px;
   text-align: center;
+  -webkit-transform: translateY(-425px) translateX(300px);
+  -moz-transform: translateY(-425px) translateX(300px);
+  -ms-transform: translateY(-425px) translateX(300px);
+  -o-transform: translateY(-425px) translateX(300px);
   transform: translateY(-425px) translateX(300px);
   z-index: 1;
 }
@@ -64,6 +68,10 @@ body {
 .menu__item:hover > .submenu {
   opacity: 1;
   transition: all 1s;
+  -webkit-transform: translateX(-100px);
+  -moz-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
+  -o-transform: translateX(-100px);
   transform: translateX(-100px);
 }
 
