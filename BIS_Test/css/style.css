@@ -26,6 +26,10 @@ body {
   padding: 15px 0;
 }
 
+.menu {
+  position: relative;
+}
+
 .menu li {
   padding: 5px;
 }
@@ -47,7 +51,9 @@ body {
 .submenu {
   display: none;
   background-color: #0f0;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 300px;
 }
 
 .submenu__item {
