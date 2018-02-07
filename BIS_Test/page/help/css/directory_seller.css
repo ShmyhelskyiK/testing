@@ -1,0 +1,14 @@
+ul {
+  list-style: disc;
+}
+
+.main h2 {
+  font-weight: bold;
+}
+
+.main {
+  background-color: #fff;
+  width: 50%;
+  margin: 10px auto;
+  opacity: .7;
+}
