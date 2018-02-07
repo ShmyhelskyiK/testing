@@ -12,6 +12,7 @@ h1 {
 
 h2{
   font-size: 20px;
+  margin: 15px;
 }
 
 .header {
@@ -29,10 +30,6 @@ h2{
   justify-content: space-around;
   align-items: flex-start;
   padding: 15px 0;
-}
-
-.main h2 {
-  font-weight: bold;
 }
 
 .menu__item {
