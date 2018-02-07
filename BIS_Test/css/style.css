@@ -1,9 +1,11 @@
 body {
   background-color: #fff8dc;
-  /*background: url("../img/foto.jpg") top center no-repeat;*/
+  background: url("../img/foto.jpg") top center no-repeat;
 }
 
 h1 {
+  display: flex;
+  align-items: center;
   font-size: 26px;
   font-weight: bold;
 }
@@ -22,11 +24,6 @@ h2{
   padding: 15px;
 }
 
-.header h1 {
-  display: flex;
-  align-items: center;
-}
-
 .main {
   display: flex;
   justify-content: space-around;
@@ -34,12 +31,16 @@ h2{
   padding: 15px 0;
 }
 
+.main h2 {
+  font-weight: bold;
+}
+
 .menu__item {
   position: relative;
 }
 
 .menu li {
-  padding: 5px;
+  padding: 10px;
 }
 
 .menu a {
@@ -47,6 +48,7 @@ h2{
   padding: 5px;
   font-size: 20px;
   text-decoration: none;
+  transition: all .8s;
 }
 
 .menu a:hover {
@@ -54,15 +56,16 @@ h2{
   background-color: #000;
   border-radius: 5px;
   padding: 5px;
-  transition: all .8s;
 }
 
 .submenu {
   opacity: 0;
   background-color: #fff618;
-  border-radius: 5px;
   position: absolute;
   width: 350px;
+  border-left: 30px solid #000;
+  -o-border-radius: 5px;
+  border-radius: 5px;
   top: 0;
   left: 250px;
   text-align: center;
@@ -87,6 +90,7 @@ h2{
 .aside,
 .aside img {
   width: 600px;
+  background-color: #fff;
 }
 
 .links {
