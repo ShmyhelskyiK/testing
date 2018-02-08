@@ -1,0 +1,38 @@
+body {
+  background-color: #fff8dc;
+  background: url("../img/bg.jpg") top center no-repeat;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 20px;
+  margin: 15px;
+}
+
+/*----------------------------------------*/
+/* - HEADER SECTION - */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff618;
+}
+
+.logo {
+  padding: 15px;
+}
+
+/*----------------------------------------*/
+/* - MAIN SECTION - */
+
+/*.main {*/
+  /*display: flex;*/
+  /*justify-content: space-around;*/
+  /*align-items: flex-start;*/
+  /*padding: 15px 0;*/
+/*}*/

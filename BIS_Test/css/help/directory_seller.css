@@ -7,6 +7,10 @@ ul {
 }
 
 .main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 15px 0;
   background-color: #fff;
   width: 50%;
   margin: 10px auto;
