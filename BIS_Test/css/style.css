@@ -2,10 +2,16 @@
 /*!* - MAIN SECTION - *!*/
 
 .main {
+  box-sizing: border-box;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  padding: 15px 0;
+  padding: 25px;
+}
+
+nav {
+  width: 50%;
 }
 
 .menu__item {
@@ -59,7 +65,8 @@
 }
 
 .aside {
-  width: 600px;
+  /*width: 600px;*/
+  width: 50%;
   background-color: #fff;
   padding: 30px;
 }
