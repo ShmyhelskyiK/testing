@@ -1,3 +1,4 @@
-ul {
+ol {
   list-style: decimal;
+  margin-left: 25px;
 }
