@@ -3,15 +3,14 @@
 
 .main {
   box-sizing: border-box;
-  /*width: 100%;*/
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
   padding: 25px 75px;
 }
 
-nav {
-  width: 44%;
+.main__navigation {
+  width: 40%;
+  padding: 2%;
 }
 
 .menu__item {
@@ -55,8 +54,7 @@ nav {
   transform: scale(0,0) translateX(0);
 }
 
-.menu__item:hover > .submenu,
-.menu__item:active > .submenu {
+.menu__item:hover > .submenu {
   opacity: 1;
   -webkit-transform: scale(1,1) translateX(-110px);
   -moz-transform: scale(1,1) translateX(-110px);
@@ -65,17 +63,15 @@ nav {
   transform: scale(1,1) translateX(-110px);
 }
 
-.article {
-  /*width: 600px;*/
+.main__news {
   width: 50%;
   background-color: #fff;
   padding: 3%;
 }
 
-.article img {
+.main__news img {
   width: 100%;
   margin: 0 auto;
-  text-align: center;
 }
 
 .links {
