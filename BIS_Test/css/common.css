@@ -15,6 +15,10 @@ h2{
   margin: 15px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .wrapper {
   box-sizing: border-box;
   width: 100%;
@@ -51,8 +55,17 @@ h2{
 /* - FOOTER SECTION - */
 
 /*.footer {*/
-  /*box-sizing: border-box;*/
-  /*width: 100%;*/
+  /*width: 96%;*/
   /*padding: 2%;*/
-  /*background-color: rgba(0, 0, 0, .8)*/
+  /*background-color: rgba(0, 0, 0, .7)*/
+/*}*/
+
+/*.footer ul {*/
+  /*display: flex;*/
+  /*justify-content: space-around;*/
+  /*flex-wrap: wrap;*/
+/*}*/
+
+/*.footer a {*/
+  /*color: #fff230;*/
 /*}*/
