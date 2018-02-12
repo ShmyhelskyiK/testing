@@ -13,7 +13,7 @@ ol {
 
 .content a {
   color: #000;
-  text-decoration: none;
+  padding: 5px;
 }
 
 .content a:hover {
