@@ -15,10 +15,10 @@
 }
 
 /*.menu {*/
-  /*background-color: #fff200;*/
-  /*position: relative;*/
-  /*top: -50px;*/
-  /*border: 1px solid #000;*/
+/*background-color: #fff200;*/
+/*position: relative;*/
+/*top: -50px;*/
+/*border: 1px solid #000;*/
 /*}*/
 
 .menu__item {
@@ -28,8 +28,8 @@
 }
 
 /*.menu__item > a {*/
-  /*border: 1px solid #000;*/
-  /*border-radius: 5px;*/
+/*border: 1px solid #000;*/
+/*border-radius: 5px;*/
 /*}*/
 
 .menu li {
@@ -116,6 +116,6 @@
 }
 
 /*.footer a:hover {*/
-  /*background-color: #fff200;*/
-  /*color: #000;*/
+/*background-color: #fff200;*/
+/*color: #000;*/
 /*}*/
