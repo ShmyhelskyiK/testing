@@ -1,5 +1,10 @@
-h3, p {
+h3 {
   text-align: center;
+}
+
+p {
+  text-align: center;
+  width: 100%;
 }
 
 .content__card {
