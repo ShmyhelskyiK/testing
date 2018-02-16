@@ -1,18 +1,19 @@
+/*@import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic,cyrillic-ext');*/
+@import "fonts.css";
+
 body {
-  background-color: #fff8dc;
-  background: url("../img/bg.jpg") top center repeat-y;
-  font-family: 'Lobster', cursive;
-  font-style: normal;
-  font-weight: 400;
+  /*background-color: #3b342e;*/
+  background: #50463e url("../img/bg1-min.jpg") top center repeat-y;
+  font-family: Lobster, cursive;
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 h2{
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   border-bottom: 1px solid #000;
   margin: 15px;
