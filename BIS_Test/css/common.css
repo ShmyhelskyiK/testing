@@ -4,7 +4,7 @@
 body {
   /*background-color: #3b342e;*/
   background: #50463e url("../img/bg1-min.jpg") top center repeat-y;
-  font-family: 'Lobster', cursive;
+  font-family: 'Lobster', cursive, Calibri, Verdana, Arial, sans-serif;
 }
 
 h1 {
