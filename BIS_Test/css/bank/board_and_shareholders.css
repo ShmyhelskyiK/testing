@@ -16,6 +16,7 @@ h3 {
   align-items: center;
   box-sizing: border-box;
   width: 90%;
+  height: 100%;
   background-color: rgba(255,255,255, .6);
   border: 2px solid #fff200;
   padding: 30px;
@@ -30,6 +31,7 @@ h3 {
 .content__photo {
   box-sizing: border-box;
   width: 70%;
+  height: 100%;
   margin: 30px 0;
   border: 1px solid #000;
   border-radius: 15px;
