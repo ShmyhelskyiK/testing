@@ -23,6 +23,12 @@ a {
   text-decoration: none;
 }
 
+/*Общий css код для некликабельной ссылки*/
+a.disabled {
+  pointer-events: none; /* делаем элемент неактивным для взаимодействия */
+  cursor: default; /*  курсор в виде стрелки */
+}
+
 .wrapper {
   box-sizing: border-box;
   width: 100%;
