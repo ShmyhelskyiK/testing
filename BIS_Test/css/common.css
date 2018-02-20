@@ -24,7 +24,7 @@ a {
 }
 
 /*Общий css код для неактивного елемента li*/
-.disabled {
+.DISABLED {
   cursor: default; /*  курсор в виде стрелки */
   pointer-events: none; /* делаем элемент неактивным для взаимодействия */
   text-decoration: line-through; /* делаем элемент зачеркнутым */
