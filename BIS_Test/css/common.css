@@ -23,10 +23,11 @@ a {
   text-decoration: none;
 }
 
-/*Общий css код для некликабельной ссылки*/
-a.disabled {
-  pointer-events: none; /* делаем элемент неактивным для взаимодействия */
+/*Общий css код для некликабельной елемента li*/
+.disabled {
   cursor: default; /*  курсор в виде стрелки */
+  pointer-events: none; /* делаем элемент неактивным для взаимодействия */
+  text-decoration: line-through; /* делаем элемент зачеркнутым */
 }
 
 .wrapper {
