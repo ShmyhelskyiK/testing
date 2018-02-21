@@ -27,7 +27,8 @@ a {
 .DISABLED {
   cursor: default; /*  курсор в виде стрелки */
   pointer-events: none; /* делаем элемент неактивным для взаимодействия */
-  text-decoration: line-through; /* делаем элемент зачеркнутым */
+  /*text-decoration: line-through; !* делаем элемент зачеркнутым *!*/
+  background: #777;
 }
 
 .wrapper {
