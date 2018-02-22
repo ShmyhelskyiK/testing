@@ -2,7 +2,6 @@
 @import "fonts.css";
 
 body {
-  /*background-color: #3b342e;*/
   background: #50463e url("../img/bg1-min.jpg") top center repeat-y;
   font-family: 'Lobster', cursive, Calibri, Verdana, Arial, sans-serif;
 }
@@ -21,6 +20,10 @@ h2{
 
 a {
   text-decoration: none;
+}
+
+a:active {
+  color: #fff200;
 }
 
 /*Общий css код для неактивного елемента li*/
