@@ -1,6 +1,6 @@
-function openExplorer(dir) {
-    var ws = new ActiveXObject("WScript.Shell");
-    ws.Run("explorer " + dir);
+// function openExplorer(dir) {
+//     var ws = new ActiveXObject("WScript.Shell");
+//     ws.Run("explorer " + dir);
 }
 
 // var myDefault = new Folder ("U:/xxx/zzz");
