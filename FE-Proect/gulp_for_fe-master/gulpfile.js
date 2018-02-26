@@ -5,7 +5,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const babel = require('gulp-babel');
 
 gulp.task('html', function () {
-    gulp.src('./src/index.html')
+    gulp.src('./src/address_book.html')
       .pipe(gulp.dest('./dist'))
 });
 
