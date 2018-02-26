@@ -1,5 +1,5 @@
 <?php
-$dir = 'explorer.exe E:\\Справочник продавца\\ПО SLOLP';
+$dir = 'explorer.exe \\\bee.bisbank.com.ua\\USER\\Справочник продавца\\ПО SLOLP';
 exec($dir);
 echo
 "<script language='javascript' type='text/javascript'>
