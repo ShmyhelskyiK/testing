@@ -1,0 +1,13 @@
+.structure {
+  width: 90%;
+}
+
+.structure__link {
+  height: 100%;
+  width: 100%;
+}
+
+.structure__image {
+  width: 96%;
+  margin: 0 2%;
+}
