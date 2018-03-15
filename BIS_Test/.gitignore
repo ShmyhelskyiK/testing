@@ -4,4 +4,6 @@
 #PSD-maket & PPTX(presentation)
 *.psd
 *.pptx
+#Folders
 /.idea
+/.files
