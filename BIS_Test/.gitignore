@@ -1,9 +1,12 @@
-#Rar-Zip arhives
+#Files & Rar-Zip arhives
 *.rar
 *.zip
-#PSD-maket & PPTX(presentation)
 *.psd
+*.pdf
 *.pptx
+*.doc
+*.docx
+
 #Folders
 /.idea
 /.files
