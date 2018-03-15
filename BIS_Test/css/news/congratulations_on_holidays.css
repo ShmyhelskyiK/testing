@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Новини</title>
-  <link rel="stylesheet" href="../../css/reset.css">
-  <link rel="stylesheet" href="../../css/style.css">
-</head>
-<body>
-<div class="wrapper">
-  <header class="header">
-    <img class="logo" src="../../img/logo.jpg" alt="logo">
-    <h1>Новини</h1>
-  </header>
-
-  <main class="main">
-    <h2>Привітання зі святами</h2>
-  </main>
-
-  <footer class="footer">
-
-  </footer>
-</div>
-</body>
-</html>
+img {
+  width: 90%;
+  height: 100%;
+}
