@@ -1,25 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>На допомогу співробітнику</title>
-  <link rel="stylesheet" href="../../css/reset.css">
-  <link rel="stylesheet" href="../../css/style.css">
-</head>
-<body>
-<div class="wrapper">
-  <header class="header">
-    <img class="logo" src="../../img/logo.jpg" alt="logo">
-    <h1>На допомогу співробітнику</h1>
-  </header>
+table {
+  /*border: 2px;*/
+  /*border-collapse: separate;*/
+  /*border-spacing: 10px;*/
+  width: 98%;
+  /*height: 130px;*/
+  /*vertical-align: center;*/
+  /*box-sizing: border-box;*/
+}
 
-  <main class="main">
-    <h2>Нормативні документи</h2>
-  </main>
+tbody {
+  /*vertical-align: center;*/
+  }
 
-  <footer class="footer">
-
-  </footer>
-</div>
-</body>
-</html>
+td {
+   /*border: 1px dashed #000;*/
+  /*outline: 1px dashed #fff200;*/
+  vertical-align: middle;
+  padding: 10px;
+}
