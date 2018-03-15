@@ -1,5 +1,5 @@
 <?php
-$dir = 'explorer.exe \\\bee.bisbank.com.ua\\USER\\Справочник продавца\\ПО SLOLP';
+$dir = 'explorer.exe \\\bee.bisbank.com.ua\\USER\\Нормативная база банка\\ПРОЦЕСИ БАНКУ\\ПЕРЕКАЗИ ЧЕРЕЗ МПС_ФО';
 exec($dir);
 echo
 "<script language='javascript' type='text/javascript'>

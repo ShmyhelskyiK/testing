@@ -1,5 +1,5 @@
 <?php
-$dir = 'explorer.exe \\\bee.bisbank.com.ua\\USER\\Справочник продавца\\\Відео ПО Брокер';
+$dir = 'explorer.exe \\\bee.bisbank.com.ua\\USER\\Справочник продавца\\Арсенал Страхування\\03 Інструкції к ВЕБ додатку';
 exec($dir);
 echo
 "<script language='javascript' type='text/javascript'>
