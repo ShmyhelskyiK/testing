@@ -41,8 +41,8 @@
 }
 
 .menu__link_border:hover {
-  border-bottom: 2px solid #fff200;
-  border-left: 2px solid #fff200;
+  border-bottom: 3px solid #fff200;
+  border-left: 3px solid #fff200;
 }
 
 .submenu {
