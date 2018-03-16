@@ -20,7 +20,7 @@
   padding: 10px;
 }
 
-.menu_link {
+.menu__link {
   color: #000;
   padding: 5px;
   font-size: 20px;
@@ -29,12 +29,20 @@
   text-shadow: 0 0 20px rgba(242,242,242, 1);
 }
 
-.menu_link:hover {
+.menu__link:hover {
   color: #fff200;
   background-color: #000;
   border-radius: 5px;
   padding: 5px;
   text-shadow: none;
+}
+
+.menu__link {
+}
+
+.menu__link_border:hover {
+  border-bottom: 2px solid #fff200;
+  border-left: 2px solid #fff200;
 }
 
 .submenu {

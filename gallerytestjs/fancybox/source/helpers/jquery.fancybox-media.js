@@ -144,7 +144,7 @@
 					autoplay : 0
 				},
 				type : 'iframe',
-				url  : '//www.twitvid.com/embed.php?guid=$1'
+				url  : '//www.twitvid.com/embed.php_script?guid=$1'
 			},
 			twitpic : {
 				matcher : /twitpic\.com\/(?!(?:place|photos|events)\/)([a-zA-Z0-9\?\=\-]+)/i,
