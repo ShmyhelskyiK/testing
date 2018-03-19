@@ -15,7 +15,13 @@ h2{
   font-size: 26px;
   font-weight: bold;
   border-bottom: 1px solid #000;
-  margin: 15px;
+  margin: 15px 0;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 a:active {
