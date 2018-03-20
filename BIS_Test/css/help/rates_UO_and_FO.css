@@ -4,7 +4,8 @@ ol {
 }
 
 h2 {
- text-align: center;
+  text-align: center;
+  margin: 15px;
 }
 
 .rates {
