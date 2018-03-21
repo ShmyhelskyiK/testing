@@ -15,6 +15,7 @@ ul {
   padding: 30px;
   margin: 20px auto;
 }
+
 .content__text {
   font-family: Calibri, Arial, sans-serif;
   text-align: center;
@@ -31,6 +32,10 @@ ul {
   -webkit-box-shadow: 5px 5px 118px -5px rgba(0,0,0,0.75);
   -moz-box-shadow: 5px 5px 118px -5px rgba(0,0,0,0.75);
   box-shadow: 5px 5px 118px -5px rgba(0,0,0,0.75);
+}
+
+.content__card_border {
+  border: 2px dashed #000;
 }
 
 .content__photo_max {
