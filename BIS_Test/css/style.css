@@ -28,23 +28,21 @@
   z-index: 3;
 }
 
+.main__navigation:hover > .menu {
+  position: absolute;
+  top: -64px;     /*менять при добавлении нового пункта меню в главное меню*/
+}
+
 .menu:after {
-  content: 'Меню';
+  content: "Меню";
   font-size: 28px;
+  width: 100%;
+  background-color: #fff200;
   position: absolute;
   right: 0;
   border-top: 2px solid #000;
-  background-color: #fff200;
-  width: 100%;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
-}
-
-
-
-.main__navigation:hover > .menu {
-  position: absolute;
-  top: -64px;
 }
 
 .menu__item {
@@ -87,15 +85,9 @@
   border-radius: 5px;
   position: absolute;
   top: 0;
-  left: 250px;
+  left: 235px;
   z-index: 4;
   transition: all 1s;
-  /*-webkit-transform: scale(1,1) translateX(-1000px);*/
-  /*-moz-transform: scale(1,1) translateX(-1000px);*/
-  /*-ms-transform: scale(1,1) translateX(-1000px);*/
-  /*-o-transform: scale(1,1) translateX(-1000px);*/
-  /*transform: scale(1,1) translateX(-15px);*/
-  transform: translateX(-15px);
 }
 
 .submenu__item {
@@ -104,13 +96,6 @@
 
 .menu__item:hover > .submenu {
   display: block;
-  /*opacity: 1;*/
-  /*-webkit-transform: scale(1,1) translateX(-15px);*/
-  /*-moz-transform: scale(1,1) translateX(-15px);*/
-  /*-ms-transform: scale(1,1) translateX(-15px);*/
-  /*-o-transform: scale(1,1) translateX(-15px);*/
-  /*transform: scale(1,1) translateX(-15px);*/
-  transform: translateX(-15px);
 }
 
 .main__news {
