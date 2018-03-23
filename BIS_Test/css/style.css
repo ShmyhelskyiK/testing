@@ -17,13 +17,14 @@
 }
 
 .menu {
+  width: 240px;
   background-color: #fff200;
   position: absolute;
   top: -350px;
   transition: all 1s;
   text-align: center;
   line-height: 35px;
-  padding: 0 2px;
+  padding: 0 10px;
   z-index: 3;
 }
 
@@ -35,6 +36,8 @@
   border-top: 2px solid #000;
   background-color: #fff200;
   width: 100%;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
 
@@ -76,7 +79,8 @@
 }
 
 .submenu {
-  opacity: 0;
+  display: none;
+  /*opacity: 0;*/
   background-color: #fff200;
   width: 350px;
   border-left: 30px solid #000;
@@ -84,13 +88,14 @@
   position: absolute;
   top: 0;
   left: 250px;
-  z-index: 1;
+  z-index: 4;
   transition: all 1s;
-  -webkit-transform: scale(1,1) translateX(-1000px);
-  -moz-transform: scale(1,1) translateX(-1000px);
-  -ms-transform: scale(1,1) translateX(-1000px);
-  -o-transform: scale(1,1) translateX(-1000px);
-  transform: scale(1,1) translateX(-1000px);
+  /*-webkit-transform: scale(1,1) translateX(-1000px);*/
+  /*-moz-transform: scale(1,1) translateX(-1000px);*/
+  /*-ms-transform: scale(1,1) translateX(-1000px);*/
+  /*-o-transform: scale(1,1) translateX(-1000px);*/
+  /*transform: scale(1,1) translateX(-15px);*/
+  transform: translateX(-15px);
 }
 
 .submenu__item {
@@ -98,12 +103,14 @@
 }
 
 .menu__item:hover > .submenu {
-  opacity: 1;
-  -webkit-transform: scale(1,1) translateX(-15px);
-  -moz-transform: scale(1,1) translateX(-15px);
-  -ms-transform: scale(1,1) translateX(-15px);
-  -o-transform: scale(1,1) translateX(-15px);
-  transform: scale(1,1) translateX(-15px);
+  display: block;
+  /*opacity: 1;*/
+  /*-webkit-transform: scale(1,1) translateX(-15px);*/
+  /*-moz-transform: scale(1,1) translateX(-15px);*/
+  /*-ms-transform: scale(1,1) translateX(-15px);*/
+  /*-o-transform: scale(1,1) translateX(-15px);*/
+  /*transform: scale(1,1) translateX(-15px);*/
+  transform: translateX(-15px);
 }
 
 .main__news {
