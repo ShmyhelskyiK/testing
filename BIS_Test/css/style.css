@@ -13,11 +13,41 @@
 .main__navigation {
   width: 40%;
   padding: 25px 2%;
+  position: relative;
+}
+
+.menu {
+  background-color: #fff200;
+  position: absolute;
+  top: -350px;
+  transition: all 1s;
+  text-align: center;
+  line-height: 35px;
+  padding: 0 2px;
+  z-index: 3;
+}
+
+.menu:after {
+  content: 'Меню';
+  font-size: 28px;
+  position: absolute;
+  right: 0;
+  border-top: 2px solid #000;
+  background-color: #fff200;
+  width: 100%;
+}
+
+
+
+.main__navigation:hover > .menu {
+  position: absolute;
+  top: -64px;
 }
 
 .menu__item {
   position: relative;
-  padding: 10px;
+  padding: 10px 0;
+  width: 100%;
 }
 
 .menu__item:hover > .menu__link {
@@ -45,11 +75,6 @@
   text-shadow: none;
 }
 
-.menu__link_border:hover {
-  border-bottom: 3px solid #fff200;
-  border-left: 3px solid #fff200;
-}
-
 .submenu {
   opacity: 0;
   background-color: #fff200;
@@ -61,11 +86,11 @@
   left: 250px;
   z-index: 1;
   transition: all 1s;
-  -webkit-transform: scale(0,0) translateX(0);
-  -moz-transform: scale(0,0) translateX(0);
-  -ms-transform: scale(0,0) translateX(0);
-  -o-transform: scale(0,0) translateX(0);
-  transform: scale(0,0) translateX(0);
+  -webkit-transform: scale(1,1) translateX(-1000px);
+  -moz-transform: scale(1,1) translateX(-1000px);
+  -ms-transform: scale(1,1) translateX(-1000px);
+  -o-transform: scale(1,1) translateX(-1000px);
+  transform: scale(1,1) translateX(-1000px);
 }
 
 .submenu__item {
@@ -74,11 +99,11 @@
 
 .menu__item:hover > .submenu {
   opacity: 1;
-  -webkit-transform: scale(1,1) translateX(-110px);
-  -moz-transform: scale(1,1) translateX(-110px);
-  -ms-transform: scale(1,1) translateX(-110px);
-  -o-transform: scale(1,1) translateX(-110px);
-  transform: scale(1,1) translateX(-110px);
+  -webkit-transform: scale(1,1) translateX(-15px);
+  -moz-transform: scale(1,1) translateX(-15px);
+  -ms-transform: scale(1,1) translateX(-15px);
+  -o-transform: scale(1,1) translateX(-15px);
+  transform: scale(1,1) translateX(-15px);
 }
 
 .main__news {
