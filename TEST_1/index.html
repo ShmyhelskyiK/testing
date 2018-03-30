@@ -8,32 +8,31 @@
 </head>
 <body>
   <main class="main">
-      <section class="create">
-        <button class="create__button">Create new game</button>
-      </section>
-
-    <section class="saved">
-      <button class="saved__button">Saved games</button>
+    <section class="button">
+      <button class="button__create">Create new game</button>
+      <button class="button__saved">Saved games</button>
     </section>
 
-    <section class="description">
-      <h2 class="description__title">Create New Game</h2>
+    <section class="form">
+      <h2 class="form__title">Create New Game</h2>
       <form name="new_game" method="#" action="#">
         <h3>Game name</h3>
-        <input type="text" placeholder="   Game name">
+        <input type="text" placeholder="Game name">
         <h3>Description</h3>
-        <input type="text" placeholder="   Description">
+        <input type="text" placeholder="Description">
         <h3>Add question</h3>
-        <input type="text" placeholder="   Question">
-        <button class="description__button"></button>
-        <input type="text" placeholder="   No question">
+        <input type="text" placeholder="Question">
+        <button class="form__button"></button>
+        <input type="text" placeholder="No question">
       </form>
+      <div class="form-button">
+        <button class="form-button__cancel">Cancel</button>
+        <button class="form-button__create">Create game</button>
+      </div>
     </section>
 
-    <section class="button">
-      <button class="button__cancel">Cancel</button>
-      <button class="button__create"> Create game</button>
-    </section>
+
+
   </main>
 </body>
 </html>
