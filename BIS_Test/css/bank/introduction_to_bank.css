@@ -1,5 +1,10 @@
+ul, ol {
+  width: 100%;
+}
+
 ul {
   list-style-type: disc;
+  /*margin-bottom: 10px;*/
 }
 
 .content__card {
@@ -35,7 +40,7 @@ ul {
 }
 
 .content__card_border {
-  border: 2px dashed #000;
+  border: 2px dashed #999715;
 }
 
 .content__photo_max {
@@ -70,4 +75,13 @@ ul {
   position: absolute;
   top: 81%;
   left: 30%;
+}
+
+.content__list {
+  column-count: 2;
+  text-align: center;
+}
+
+.content__item {
+  margin: 7px 0;
 }
