@@ -101,6 +101,8 @@
   width: 50%;
   background-color: #fff;
   padding: 25px 3%;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .news {
