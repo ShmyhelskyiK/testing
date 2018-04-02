@@ -2,7 +2,7 @@
 @import "fonts.css";
 
 body {
-  background: #50463e url("../img/bg1-min.jpg") top center repeat-y;
+  background: #333 url("../img/bg1-min.jpg") top center repeat-y;  /*#50463e*/
   font-family: 'Lobster', cursive, Calibri, Arial, sans-serif;
 }
 
@@ -85,8 +85,6 @@ a:active {
   border-radius: 10px;
 }
 
-/*--------------------- +++ -------------------*/
-
 .content__link {
   color: #000;
   padding: 5px;
@@ -159,7 +157,7 @@ a:active {
 }
 
 .content__card_border {
-  border: 2px dashed #999715;
+  border: 2px dashed #b0a9c3;
 }
 
 .content__text {
