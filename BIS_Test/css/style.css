@@ -99,6 +99,7 @@
 
 .main__news {
   width: 50%;
+  min-height: 500px;
   background-color: #fff;
   padding: 25px 3%;
   border-top-right-radius: 20px;
@@ -148,10 +149,11 @@
 }
 
 .footer a {
-  border: 2px solid #fff200;
+  border: 2px solid #000;
+  background-color: #000;
+  color: #fff200;
   border-radius: 5px;
   padding: 5px;
-  color: #fff200;
 }
 
 .footer a:hover {
