@@ -16,6 +16,16 @@ p {
   text-align: center;
 }
 
+.content__wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.content__wrap_size {
+  width: 47%;
+}
 
 .content__regional-network {
   background: #fff200;
