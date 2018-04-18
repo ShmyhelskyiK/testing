@@ -58,12 +58,13 @@ p {
 }
 
 .content__list {
-  text-align: center;
+  /*text-align: center;*/
   /*column-count: 2;*/
   /*text-align: center;*/
 }
 
 .content__item {
-  margin: 7px 0;
+  font-family: Calibri, Arial, sans-serif;
+  margin: 5px 0;
   /*width: 100%;*/
 }

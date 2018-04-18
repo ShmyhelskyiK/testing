@@ -1,14 +1,10 @@
 table {
-  /*border: 2px;*/
-  /*border-collapse: separate;*/
-  /*border-spacing: 10px;*/
   width: 98%;
+  font-family: Calibri, Arial, sans-serif;
 }
 
 td {
-   /*border: 1px dashed #000;*/
   border-top: 1px dashed #000;
-  /*outline: 1px dashed #fff200;*/
   vertical-align: middle;
   padding: 10px;
 }
