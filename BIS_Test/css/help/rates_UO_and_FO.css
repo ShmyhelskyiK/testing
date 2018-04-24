@@ -1,11 +1,10 @@
-ol {
-  /*list-style: decimal;*/
-  margin-left: 25px;
-}
-
 h2 {
   text-align: center;
   margin: 15px;
+}
+
+.content__menu {
+  margin-left: 25px;
 }
 
 .rates {
