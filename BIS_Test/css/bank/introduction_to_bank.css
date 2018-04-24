@@ -40,6 +40,7 @@ ul {
 }
 
 .card__wrap_size {
+  height: auto;
   width: 47%;
 }
 
