@@ -3,18 +3,22 @@ h4  {
   text-align: center;
 }
 
+.content__menu-item {
+  text-align: center;
+}
+
 .menu__test {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
 
-.menu-item__test1 {
+.menu__test-item1 {
   width: 100%;
-  text-align: center;
+  /*text-align: center;*/
 }
 
-.menu-item__test2 {
+.menu__test-item2 {
   width: 27%;
   text-align: center;
 }
