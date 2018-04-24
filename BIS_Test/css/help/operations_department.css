@@ -1,5 +1,26 @@
 h4  {
-  display: block;
   width: 100%;
-  text-align: right;
+  text-align: center;
+}
+
+.menu__test {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.menu-item__test1 {
+  width: 100%;
+  text-align: center;
+}
+
+.menu-item__test2 {
+  width: 27%;
+  text-align: center;
+}
+
+.content__link {
+  font-family: Calibri, Arial, sans-serif;
+  font-style: italic;
+  font-weight: 400;
 }
