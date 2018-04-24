@@ -45,6 +45,8 @@ ul {
 
 .card__text {
   font-family: Calibri, Arial, sans-serif;
+  font-style: italic;
+  font-weight: 400;
   width: 100%;
   text-align: center;
 }
@@ -99,6 +101,8 @@ ul {
 
 .card__item {
   font-family: Calibri, Arial, sans-serif;
+  font-style: italic;
+  font-weight: 400;
   margin: 5px 0;
   /*width: 100%;*/
 }

@@ -1,6 +1,8 @@
 table {
   width: 98%;
   font-family: Calibri, Arial, sans-serif;
+  font-style: italic;
+  font-weight: 400;
 }
 
 td {
