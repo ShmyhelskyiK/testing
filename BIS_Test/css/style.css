@@ -123,6 +123,8 @@
 .news__story {
   font-family: Calibri, Arial, sans-serif;
   font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .news__title_warning {
